@@ -1,4 +1,4 @@
-# Welcome to ALX Backend Specialisation in JavaScript
+# ALX Backend JavaScript
 Welcome to the ALX Backend JavaScript repository! This repository contains various projects and assignments related to backend development using JavaScript.
 
 ## Table of Contents
@@ -49,3 +49,6 @@ Please ensure that your contributions align with the guidelines and coding stand
 ## License
 
 The content of this repository is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code and project files as permitted by the license.
+
+## Author
+Nadduli Daniel (naddulidaniel1994@gmail.com)
