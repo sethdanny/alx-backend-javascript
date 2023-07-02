@@ -1,0 +1,17 @@
+{
+  "name": "0x02-es6_classes",
+  "version": "1.0.0",
+  "description": "This repository contains the code and resources for the \"0x02. ES6 classes\" learning project. In this project, you will learn about ES6 classes in JavaScript and how to use them to create object-oriented code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
