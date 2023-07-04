@@ -6,6 +6,10 @@ export default class Car {
   }
 
   cloneCar() {
-    return new this.constructor[Symbol.species]();
+    const clonedCar = new this.constructor();
+    Object.getOwnPropertySymbols(this).forEach((symbol) => {
+      clonedCar[symbol] = this[symbol];
+    });
+    return clonedCar;
   }
 }
