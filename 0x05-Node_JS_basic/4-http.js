@@ -1,7 +1,19 @@
 const http = require('http');
 
-const app = http.createServer((req, res) => {
-  res.end('Hello Holberton School!');
+const host = 'localhost';
+const port = 1245;
+
+const requestListener = (request, response) => {
+  console.log(`Method: ${request.method}`);
+  console.log(`Path: ${request.url}`);
+  console.log(`Headers: ${request.headers}`);
+  response.end('Hello Holberton School!');
+};
+
+const app = http.createServer(requestListener);
+
+app.listen(port, host, () => {
+  console.log(`Server running at http://${host}:${port}`);
 });
 
-app.listen(1245);
+module.exports = app;
