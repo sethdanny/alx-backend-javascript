@@ -21,4 +21,14 @@ describe('calculateNumber', () => {
     const result = calculateNumber('SUM', -2.4, -2.6);
     assert.strictEqual(result, -5);
   });
+
+  it('type == "SUM" - positive and negative numbers', () => {
+    const result = calculateNumber('SUM', 2, -2);
+    assert.strictEqual(result, 0);
+  });
+
+  it('type == "SUM" - negative and negative numbers', () => {
+    const result = calculateNumber('SUM', -2.4, 2.6);
+    assert.strictEqual(result, 1);
+  });
 });
